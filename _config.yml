@@ -36,5 +36,3 @@ defaults:
 
 minimal_mistakes_skin: "dark"
 search: true
-paginate: 5
-paginate_path: "/page:num/"
