@@ -1,5 +1,5 @@
 locale: en-US
-title: "Chris Wittman"
+title: "Christopher Wittman"
 subtitle: "Data Center Ops & Automation"
 description: >-
   Data Center Operations · Power Automate · PowerShell · Python · Active Directory · Networking
@@ -12,8 +12,11 @@ remote_theme: "mmistakes/minimal-mistakes@4.26.2"
 plugins:
   - jekyll-include-cache
 
+include:
+  - "_pages"
+
 author:
-  name: "Chris Wittman"
+  name: "Christopher Wittman"
   avatar: "/assets/images/avatar.jpg"
   bio: "I keep healthcare infrastructure running and automate the boring parts. Power Automate, PowerShell, Python, AD, and a soft spot for networking and Linux."
   location: "PA, USA"
@@ -26,7 +29,7 @@ author:
       url: "https://www.linkedin.com/in/christopher-wittman"
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
-      url: "mailto:chris@example.com"
+      url: "mailto:christopher@example.com"
 
 defaults:
   - scope: { path: "", type: posts }

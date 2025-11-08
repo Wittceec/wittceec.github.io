@@ -1,7 +1,7 @@
 ---
 layout: splash
 permalink: /
-title: "Chris Wittman"
+title: "Christopher Wittman"
 excerpt: "Automation-first data center operations leader"
 author_profile: true
 header:
@@ -24,31 +24,31 @@ header:
     </div>
   </div>
   <div class="cw-hero-card">
-    <p class="cw-eyebrow">Immediate Impact</p>
+    <p class="cw-eyebrow">Recent wins</p>
     <ul>
-      <li><span>24/7</span> data center coverage with automated alert enrichment.</li>
-      <li><span>60% faster</span> incident handoffs via Power Automate routing.</li>
-      <li><span>150+</span> scripted fixes codified as one-click runbooks.</li>
+      <li>Digitized visitor onboarding with Power Automate approvals and Teams notifications.</li>
+      <li>Documented on-call runbooks so night-shift techs can resolve the usual suspects quickly.</li>
+      <li>Automated ServiceNow triage to keep facilities, security, and ops in the same thread.</li>
     </ul>
   </div>
 </section>
 
 <section class="cw-section cw-stats">
   <article>
-    <p class="cw-stat-value">12 yrs</p>
-    <p class="cw-stat-label">Healthcare DC experience</p>
+    <p class="cw-stat-value">Data center</p>
+    <p class="cw-stat-label">Power, cooling, and vendor coordination</p>
   </article>
   <article>
-    <p class="cw-stat-value">400+</p>
-    <p class="cw-stat-label">Flows, scripts, and playbooks</p>
+    <p class="cw-stat-value">Automation</p>
+    <p class="cw-stat-label">Power Platform, PowerShell, Python</p>
   </article>
   <article>
-    <p class="cw-stat-value">99.98%</p>
-    <p class="cw-stat-label">Critical uptime maintained</p>
+    <p class="cw-stat-value">Service desk</p>
+    <p class="cw-stat-label">ServiceNow workflows, shift handoffs</p>
   </article>
   <article>
-    <p class="cw-stat-value">3 clouds</p>
-    <p class="cw-stat-label">Azure · M365 · on-prem</p>
+    <p class="cw-stat-value">Security</p>
+    <p class="cw-stat-label">Visitor vetting, access reviews, auditing</p>
   </article>
 </section>
 
@@ -66,17 +66,17 @@ header:
     <h2>Toolkit</h2>
     <div class="cw-tag-grid">
       <span>Power Automate</span>
+      <span>Power Apps</span>
       <span>PowerShell</span>
       <span>Python</span>
-      <span>Linux</span>
-      <span>Graph API</span>
+      <span>SharePoint</span>
+      <span>Teams</span>
+      <span>ServiceNow</span>
       <span>Active Directory</span>
+      <span>Azure</span>
+      <span>Microsoft 365</span>
       <span>Networking</span>
-      <span>Datadog</span>
-      <span>Prometheus</span>
-      <span>Terraform</span>
-      <span>GSAP</span>
-      <span>Three.js</span>
+      <span>Linux</span>
     </div>
   </div>
 </section>
@@ -97,13 +97,22 @@ header:
       <a class="cw-card-link" href="https://github.com/Wittceec/net-tui">View repository →</a>
     </article>
     <article>
-      <div class="cw-card-eyebrow">Automation · JavaScript</div>
-      <h3>WSSites Search</h3>
-      <p>Static search utility that keeps 24/7 support teams aligned on maintenance windows and contacts.</p>
+      <div class="cw-card-eyebrow">Power Platform · Automation</div>
+      <h3>Receptionist Management & Check-In</h3>
+      <p>Power Apps + Dataverse solution that registers visitors, routes approvals, and pings hosts when badges print.</p>
       <div class="cw-card-tags">
-        <span>Indexed CSV</span><span>Client-side search</span>
+        <span>Power Apps</span><span>Dataverse</span><span>Teams</span>
       </div>
-      <a class="cw-card-link" href="https://github.com/Wittceec/wssites">View repository →</a>
+      <a class="cw-card-link" href="/projects/#receptionist-management-check-in-automation">Read overview →</a>
+    </article>
+    <article>
+      <div class="cw-card-eyebrow">PowerShell · Outlook</div>
+      <h3>EmailSuite Automation</h3>
+      <p>Template-driven IT comms tool that parses change data, swaps tokens in HTML/MSG, and drafts polished alerts.</p>
+      <div class="cw-card-tags">
+        <span>PowerShell</span><span>Templates</span><span>Automation</span>
+      </div>
+      <a class="cw-card-link" href="/projects/#emailsuite-automation-project">Read overview →</a>
     </article>
     <article>
       <div class="cw-card-eyebrow">Three.js · GSAP</div>
