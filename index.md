@@ -11,7 +11,7 @@ header:
     - label: "View Projects"
       url: "/projects/"
     - label: "Download Resume"
-      url: "/resume.pdf"
+      url: "/resume.docx"
 intro:
   - excerpt: >
       I keep healthcare infrastructure running and automate the boring parts — Power Automate, PowerShell, Python, and AD, with a soft spot for networking and Linux.
