@@ -4,7 +4,4 @@ title: About
 layout: single
 ---
 
-Hi, I’m **Chris Wittman**. I work in Data Center Operations keeping healthcare infrastructure reliable, while automating repetitive work with **Power Automate**, **PowerShell**, and **Python**. I’m comfortable in **Active Directory**, **ServiceNow**, and day-to-day network/print ops.
-
-Outside of work I tinker with homelab projects, build small tools, and study Linux.
-
+Hi, I’m **Chris Wittman**. I keep healthcare infrastructure running and automate the boring parts with **Power Automate**, **PowerShell**, and **Python**. Comfortable with **Active Directory**, **ServiceNow**, and day-to-day network/print ops. I tinker with homelab projects and study Linux.
