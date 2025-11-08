@@ -12,8 +12,8 @@ classes: wide
 
 ## Receptionist Management & Check-In Automation
 - **Stack:** Power Apps (canvas), Power Pages, Dataverse, Power Automate, Microsoft 365, ServiceNow
-- **What it does:** End-to-end visitor management: reception registers guests from a portal, Dataverse tracks visits, Power Automate notifies hosts, and badge assignments stay auditable.
-- **Highlights:** Role-based security for reception vs. leadership views, ServiceNow ticket creation, and Teams alerts that include host acknowledgment buttons.
+- **What it does:** Built a reception-side app that captures visitor info, uploads ID images via scripted file handling, and automates host email notifications when someone arrives for the data center.
+- **Highlights:** Role-based access for reception vs. host dashboards, scripted badge logging, and ServiceNow/Teams updates so everyone sees the same visitor timeline without manual emails.
 - **Status:** Internal deployment — screenshots and deeper dive available privately.
 
 ## EmailSuite Automation Project

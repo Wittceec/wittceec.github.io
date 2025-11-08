@@ -2,7 +2,7 @@
 layout: splash
 permalink: /
 title: "Christopher Wittman"
-excerpt: "Automation-first data center operations leader"
+excerpt: "Automation-first data center operations specialist"
 author_profile: true
 header:
   overlay_color: "#050608"
@@ -99,9 +99,9 @@ header:
     <article>
       <div class="cw-card-eyebrow">Power Platform · Automation</div>
       <h3>Receptionist Management & Check-In</h3>
-      <p>Power Apps + Dataverse solution that registers visitors, routes approvals, and pings hosts when badges print.</p>
+      <p>Power Apps + Dataverse tool I built for reception to intake visitors, upload ID images, and auto-email hosts as badges are issued.</p>
       <div class="cw-card-tags">
-        <span>Power Apps</span><span>Dataverse</span><span>Teams</span>
+        <span>Power Apps</span><span>Dataverse</span><span>Power Automate</span>
       </div>
       <a class="cw-card-link" href="/projects/#receptionist-management-check-in-automation">Read overview →</a>
     </article>
