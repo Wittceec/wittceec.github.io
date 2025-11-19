@@ -1,12 +1,20 @@
-import { HeroScrollDemo } from "@/components/sections/hero-scroll-demo";
-import { Interactive3DDemo } from "@/components/sections/interactive-3d-demo";
+import { Hero } from "@/components/sections/Hero";
+import { Projects } from "@/components/sections/Projects";
+import { Skills } from "@/components/sections/Skills";
+import { Notes } from "@/components/sections/Notes";
+import { Footer } from "@/components/ui/Footer";
+import { getNotesTree } from "@/lib/notes";
 
 export default function Page() {
+  const notesTree = getNotesTree();
+
   return (
-    <main className="relative overflow-hidden">
-      <div className="pointer-events-none absolute inset-x-0 top-0 z-[-1] h-[500px] bg-gradient-to-b from-canvas-accent/20 to-transparent blur-3xl" />
-      <HeroScrollDemo />
-      <Interactive3DDemo />
+    <main className="relative bg-black min-h-screen">
+      <Hero />
+      <Skills />
+      <Projects />
+      <Notes tree={notesTree} />
+      <Footer />
     </main>
   );
 }
