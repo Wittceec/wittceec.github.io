@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
+import ReactMarkdown from "react-markdown";
 import { motion, AnimatePresence } from "framer-motion";
 import { Folder, FileText, ChevronRight, ChevronDown, X, FolderPlus, FilePlus } from "lucide-react";
 import { NoteItem } from "@/lib/notes";
@@ -173,9 +174,7 @@ export const Notes = ({ tree }: NotesProps) => {
                                     </button>
                                 </div>
                                 <div className="prose prose-invert prose-sm max-w-none">
-                                    <pre className="whitespace-pre-wrap font-mono text-sm text-gray-300">
-                                        {selectedFile.content}
-                                    </pre>
+                                    <ReactMarkdown>{selectedFile.content || ""}</ReactMarkdown>
                                 </div>
                             </motion.div>
                         ) : (
